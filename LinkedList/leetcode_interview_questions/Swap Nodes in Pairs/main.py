@@ -37,24 +37,24 @@ class LinkedList:
         self.length = 0
 
     def swap_pairs(self):
-        if self.length < 2:
-            return
-
-        dummy_node = Node(None)
-
-        temp_pointer = self.head
-        dummy_node_ptr = dummy_node
-
-        while temp_pointer is not None and temp_pointer.next is not None:
-            temp_node = temp_pointer.next
-            temp_pointer.next = temp_node.next
-            dummy_node_ptr.next = temp_node
-            dummy_node_ptr = dummy_node_ptr.next
-            dummy_node_ptr.next = temp_pointer
-
-            temp_pointer = temp_pointer.next
-            dummy_node_ptr = dummy_node_ptr.next
-        self.head = dummy_node.next
+        dummy = Node(0)
+        dummy.next = self.head
+        previous = dummy
+        first = self.head
+    
+        while first and first.next:
+            second = first.next
+    
+            # Perform the swap
+            previous.next = second
+            first.next = second.next
+            second.next = first
+    
+            # Move pointers
+            previous = first
+            first = first.next
+    
+        self.head = dummy.next
 
 
 # Test case 1: Swapping pairs in a list with an even number of nodes (1->2->3->4)
