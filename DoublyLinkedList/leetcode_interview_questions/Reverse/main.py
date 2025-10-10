@@ -32,21 +32,16 @@ class DoublyLinkedList:
         
 
     def reverse(self):
+        curr = self.head
+        while curr:
+            curr.prev, curr.next = curr.next, curr.prev
+            curr = curr.prev
+        self.head, self.tail = self.tail, self.head
         
-        pass
-        # first = self.head
-        # last = self.tail
-        # for i in range(self.length // 2):
-        #     temp_first_node = first
-        #     temp_last_node = last
-        #     first.next.prev = last
-        #     first.next = last.next
-        #     last.prev.next = first
-        #     first.prev = last.prev
-        #     last.next = first.next
-            
-        #     # last.next 
-        # Will be continued..
+        
+    
+        
+        
             
             
             
@@ -62,7 +57,7 @@ my_doubly_linked_list.append(4)
 
 
 print('DLL before reverse():')
-my_doubly_linked_list.print_list()
+# my_doubly_linked_list.print_list()
 
 
 my_doubly_linked_list.reverse()
