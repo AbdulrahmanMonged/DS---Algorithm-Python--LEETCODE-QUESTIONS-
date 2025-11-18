@@ -1,26 +1,121 @@
-# LeetCode Algorithm Solutions
+🐍 DS & Algorithms in Python: LeetCode Solutions
 
-This repository contains my solutions to various LeetCode problems, primarily focused on **Data Structures and Algorithms**. The problems are solved using **Python**.
+🚀 Overview
 
-## 🧐 About
+This repository is a comprehensive collection of my solutions to various Data Structures and Algorithms (DSA) problems, primarily sourced from LeetCode.
 
-This project serves as a personal collection of solutions to common LeetCode problems. The problems often represent real-world interview questions asked by major tech companies like Facebook, Amazon, Google, and more.
+It serves as a detailed coding journal to document my journey in mastering algorithmic problem-solving, improving efficiency in competitive programming, and preparing for technical interviews. All solutions are implemented in Python, focusing on clarity, efficiency, and adherence to Python best practices.
 
-## ✨ Features
+🎯 Goals of this Repository
 
-* **Comprehensive Coverage:** Solutions for a wide range of LeetCode problems.
-* **Python Solutions:** All solutions are implemented in Python.
-* **Organized Code:** Code is clean, well-commented, and easy to understand.
-* **Focus on DSA:** The problems cover a variety of topics, including arrays, linked lists, stacks, queues, trees, graphs, dynamic programming, and more.
+Mastery: Solidify understanding of core Data Structures (Arrays, Linked Lists, Trees, Graphs, Hash Maps, etc.).
 
-## 🤝 Contribution
+Algorithmic Proficiency: Implement and optimize solutions for major algorithmic paradigms (Dynamic Programming, Backtracking, Two Pointers, Sliding Window, DFS/BFS, etc.).
 
-Feel free to open an issue or submit a pull request if you have suggestions for improvements, alternative solutions, or find any errors. Your feedback is highly appreciated!
+Interview Preparation: Systematically work through high-frequency LeetCode questions essential for technical interviews.
 
-## ⚠️ Prerequisites
+Code Quality: Practice writing clean, well-commented, and Pythonic code.
 
-Some problems may require a LeetCode Premium subscription to view the question.
+📁 Repository Structure
 
-## 🔗 Contact
+Solutions are organized into directories based on the primary Data Structure or Algorithmic concept used to solve the problem.
 
-For any questions or suggestions, please feel free to reach out.
+Directory Name
+
+Description
+
+Example Problem
+
+Arrays
+
+Problems involving manipulation and traversal of arrays and lists.
+
+Two Sum, Maximum Subarray
+
+Strings
+
+Solutions for string processing, pattern matching, and manipulation.
+
+Longest Substring Without Repeating Characters
+
+Linked_Lists
+
+Problems dealing with single, double, and circular linked lists.
+
+Reverse Linked List, Merge Two Sorted Lists
+
+Trees
+
+Solutions for Binary Trees, Binary Search Trees (BSTs), and related traversals (Inorder, Preorder, Postorder).
+
+Valid Binary Search Tree, Symmetric Tree
+
+Graphs
+
+Implementations for graph algorithms (DFS, BFS, Dijkstra's, etc.).
+
+Clone Graph, Number of Islands
+
+Dynamic_Programming
+
+Solutions requiring breaking down problems into subproblems (DP).
+
+Climbing Stairs, Longest Increasing Subsequence
+
+Searching_Sorting
+
+Solutions for algorithms like Binary Search, Merge Sort, Quick Sort, etc.
+
+Search in Rotated Sorted Array
+
+Hashing
+
+Problems leveraging Hash Maps (Dictionaries) and Hash Sets for O(1) lookups.
+
+Group Anagrams
+
+✨ Getting Started
+
+Prerequisites
+
+You only need Python installed on your system to run these solutions.
+
+Python (3.x recommended)
+
+Running a Solution
+
+Clone the repository:
+
+git clone [https://github.com/AbdulrahmanMonged/DS---Algorithm-Python--LEETCODE-QUESTIONS-.git](https://github.com/AbdulrahmanMonged/DS---Algorithm-Python--LEETCODE-QUESTIONS-.git)
+cd DS---Algorithm-Python--LEETCODE-QUESTIONS-
+
+
+Navigate to a problem:
+
+# Example: navigate to the Longest Common Prefix solution
+cd Strings 
+
+
+Execute the file:
+Each Python file contains the class method solution and usually includes example test cases at the end.
+
+python longest_common_prefix.py
+
+
+🤝 Contribution
+
+Feel free to contribute to this repository! If you find an alternative, more efficient solution, or spot a bug in an existing solution, please follow these steps:
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature/new-solution).
+
+Commit your changes (git commit -m 'feat: Add optimized solution for X problem').
+
+Push to the branch (git push origin feature/new-solution).
+
+Open a Pull Request describing your changes.
+
+📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details (if you choose to add one).
