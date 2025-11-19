@@ -1,26 +1,39 @@
-# LeetCode Algorithm Solutions
+# DS & Algorithm Python — LeetCode Questions
 
-This repository contains my solutions to various LeetCode problems, primarily focused on **Data Structures and Algorithms**. The problems are solved using **Python**.
+## Overview  
+This repository is a comprehensive collection of my solutions to various data structures and algorithms (DSA) problems, primarily sourced from LeetCode.  
+It serves as a detailed coding journal to document my journey in mastering algorithmic problem-solving, improving efficiency in competitive programming, and preparing for technical interviews.  
+All solutions are implemented in **Python**, focusing on clarity, efficiency, and adherence to Python best practices.
 
-## 🧐 About
+## Goals of this Repository  
+- **Mastery of Data Structures**: Solidify understanding of core DS concepts (Arrays, Linked Lists, Trees, Graphs, Hash Maps, etc.).  
+- **Algorithmic Proficiency**: Implement and optimize solutions for major algorithmic paradigms (Dynamic Programming, Backtracking, Two-Pointers, Sliding Window, DFS/BFS, etc.).  
+- **Interview Preparation**: Systematically work through high-frequency LeetCode questions essential for technical interviews.  
+- **Code Quality**: Practice writing clean, well-commented, and Pythonic code that is easy to read, maintain, and learn from.
 
-This project serves as a personal collection of solutions to common LeetCode problems. The problems often represent real-world interview questions asked by major tech companies like Facebook, Amazon, Google, and more.
+## Repository Structure  
+Solutions are organized into directories based on the *primary data structure or algorithmic concept* used to solve the problem.
 
-## ✨ Features
+| Directory Name             | Description                                               | Example Problem                       |
+|---------------------------|-----------------------------------------------------------|---------------------------------------|
+| `Arrays/`                 | Problems involving manipulation and traversal of arrays/lists | Two Sum, Maximum Subarray             |
+| `Strings/`                | Solutions for string processing, pattern matching, manipulation | Longest Substring Without Repeating Chars |
+| `LinkedLists/`            | Problems dealing with singly, doubly, circular linked lists | Reverse Linked List, Merge Two Sorted Lists |
+| `Trees/`                  | Solutions for Binary Trees, BSTs, tree traversals         | Valid BST, Symmetric Tree             |
+| `Graphs/`                 | Graph algorithms: DFS, BFS, Dijkstra, etc.                | Number of Islands, Clone Graph        |
+| `Dynamic_Programming/`    | Problems requiring breaking down into subproblems        | Climbing Stairs, Longest Increasing Subsequence |
+| `Searching_Sorting/`      | Solutions for basic algorithmic building blocks           | Binary Search, Merge Sort, Quick Sort |
+| `Hashing/`                | Problems leveraging hash maps/sets for O(1) lookups       | Group Anagrams                        |
 
-* **Comprehensive Coverage:** Solutions for a wide range of LeetCode problems.
-* **Python Solutions:** All solutions are implemented in Python.
-* **Organized Code:** Code is clean, well-commented, and easy to understand.
-* **Focus on DSA:** The problems cover a variety of topics, including arrays, linked lists, stacks, queues, trees, graphs, dynamic programming, and more.
+_Note: Provide an index of files or link to related problem numbers where possible._
 
-## 🤝 Contribution
+## Getting Started  
+### Prerequisites  
+- Python 3.x (latest recommended)  
+- (Optional) Virtual environment for isolation  
 
-Feel free to open an issue or submit a pull request if you have suggestions for improvements, alternative solutions, or find any errors. Your feedback is highly appreciated!
-
-## ⚠️ Prerequisites
-
-Some problems may require a LeetCode Premium subscription to view the question.
-
-## 🔗 Contact
-
-For any questions or suggestions, please feel free to reach out.
+### Running a Solution  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/AbdulrahmanMonged/DS---Algorithm-Python--LEETCODE-QUESTIONS-.git  
+   cd DS---Algorithm-Python--LEETCODE-QUESTIONS-
