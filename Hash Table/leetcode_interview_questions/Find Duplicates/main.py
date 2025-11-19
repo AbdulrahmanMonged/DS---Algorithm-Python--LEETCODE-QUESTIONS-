@@ -1,0 +1,38 @@
+def find_duplicates(arr):
+    data_map = {}
+    duplis = []
+    for item in arr:
+        if data_map.get(item, None):
+            if item not in duplis:
+                duplis.append(item)
+        else:
+            data_map[item] = True
+    return duplis
+    
+
+
+
+
+print ( find_duplicates([1, 2, 3, 4, 5]) )
+print ( find_duplicates([1, 1, 2, 2, 3]) )
+print ( find_duplicates([1, 1, 1, 1, 1]) )
+print ( find_duplicates([1, 2, 3, 3, 3, 4, 4, 5]) )
+print ( find_duplicates([1, 1, 2, 2, 2, 3, 3, 3, 3]) )
+print ( find_duplicates([1, 1, 1, 2, 2, 2, 3, 3, 3, 3]) )
+print ( find_duplicates([]) )
+
+
+
+"""
+    EXPECTED OUTPUT:
+    ----------------
+    []
+    [1, 2]
+    [1]
+    [3, 4]
+    [1, 2, 3]
+    [1, 2, 3]
+    []
+
+"""
+
