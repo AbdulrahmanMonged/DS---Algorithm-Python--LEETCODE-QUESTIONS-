@@ -15,6 +15,7 @@ class MaxHeap:
         self.heap[index1], self.heap[index2] = self.heap[index2], self.heap[index1]
     
     def _sink_down(self, index):
+        pass
         #####
         
 
